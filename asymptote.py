@@ -63,6 +63,9 @@ class AsymptoteMagic(Magics):
     entered into the IPython cell, and outputs image
     rendered by Asymptote.
     
+	TODO: retain asymptote interpreter history between
+	multiple asymptote code cells. For example, can define
+	common setup (diagram size, pens) in this manner.
     TODO: implement way to communicate between python and
     asymptote, similar to Rpush/Rpull IPython magics. Should
     be easy with an api similar to http://emmett.ca/PyAsy/.

@@ -2,13 +2,14 @@ IPython magic for Asymptote
 ===========================
 
 [Asymptote](http://asymptote.sourceforge.net/) is a powerful vector graphics
-language for generating scientific diagrams. 
+language for generating scientific diagrams. Among many other features,
+it is natively capable of drawing three-dimensional figures and uses a clean C-like syntax.
+Installation instructions for Asymptote may be found on Asymptote's website or 
+[on this page](http://www.artofproblemsolving.com/Wiki/index.php/Asymptote:_Getting_Started/Windows/Downloads_and_Installation).
 
-This IPython magic extension makes it easy to create and display Asymptote 
-diagrams within an IPython notebook.
+This IPython magic extension makes it easy to create and display Asymptote diagrams within an IPython notebook.
+Suggested versions include Python 2.7+, IPython 2.0+, and [Asymptote 2.17+](http://asymptote.sourceforge.net/).
 
-See the
-[example notebook](http://nbviewer.ipython.org/urls/raw.github.com/jrjohansson/ipython-asymptote/master/Asymptote-examples.ipynb)
-for intallation instruction and example of how to use this magic extension.
+See the examples directory for installation instruction and example of how to use this magic extension.
 
 
