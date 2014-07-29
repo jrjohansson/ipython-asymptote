@@ -1,4 +1,10 @@
 *.py[cod]
+.ipynb_checkpoints/
+
+# Asymptote
+*.stackdump
+*.aux
+*.log
 
 # C extensions
 *.so
